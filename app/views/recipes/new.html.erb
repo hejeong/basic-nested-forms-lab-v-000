@@ -2,11 +2,11 @@
   <%= rec.label :title %>
   <%= rec.text_field :title %> <br>
   <%= fields_for :ingredients do |ing| %>
-    <%= ing.label :name_1 %>
-    <%= ing.text_field :name_1 %>
+    <%= ing.label :name %>
+    <%= ing.text_field :name %>
     <br>
-    <%= ing.label :quantity_1 %>
-    <%= ing.text_field :quantity_1 %>
+    <%= ing.label :quantity %>
+    <%= ing.text_field :quantity %>
     <br>
   <% end %>
   <br>
