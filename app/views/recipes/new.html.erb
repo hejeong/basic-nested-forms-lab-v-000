@@ -4,12 +4,12 @@
   <br>
   <h3>Ingredients:</h3>
   <%= rec.fields_for :ingredients do |ing| %>
-    <h3>Ingredients:</h3>
     <%= ing.label :name %>
     <%= ing.text_field :name %>
     <br>
     <%= ing.label :quantity %>
     <%= ing.text_field :quantity %>
+    <br>
     <br>
   <% end %>
   <br>
