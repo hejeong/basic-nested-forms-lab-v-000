@@ -3,7 +3,7 @@
   <%= rec.text_field :title %> <br>
   <br>
   <%= rec.fields_for :ingredients do |ing| %>
-    Ingredients:<br>
+    <h3>Ingredients:</h3><br>
     <%= ing.label :name %>
     <%= ing.text_field :name %>
     <br>
