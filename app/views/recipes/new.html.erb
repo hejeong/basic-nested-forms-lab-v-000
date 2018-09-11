@@ -1,6 +1,7 @@
 <%= form_for @recipe do |rec| %>
   <%= rec.label :title %>
   <%= rec.text_field :title %> <br>
+  <br>
   <%= rec.fields_for :ingredients do |ing| %>
     Ingredients:<br>
     <%= ing.label :name %>
